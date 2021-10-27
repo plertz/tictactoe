@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" type="text/css"href="opmaak.css" >
+  </head>
+
+  <body>
+      <div class="game-board">
+        <div onclick='draw(), check()' class="box">
+          <img class="img1">
+        </div>
+        <div onclick='draw2(), check()' class="box">
+          <img class="img2">
+        </div>
+        <div onclick='draw3(), check()' class="box">
+          <img class="img3">
+        </div>
+        <div onclick='draw4(), check()' class="box">
+          <img class="img4">
+        </div>
+        <div onclick='draw5(), check()' class="box">
+          <img class="img5">
+        </div>
+        <div onclick='draw6(), check()' class="box">
+          <img class="img6">
+        </div>
+        <div onclick='draw7(), check()' class="box">
+          <img class="img7">
+        </div>
+        <div onclick='draw8(), check()' class="box">
+          <img class="img8">
+        </div>
+        <div onclick='draw9(), check()' class="box">
+          <img class="img9">
+        </div>
+      </div>
+      <div class="game-over">
+        <div class="display">
+          <div class="info">
+            <p id="uitslag"></p>
+            <button class="opnieuw"><a href="index.html">Opnieuw</a></button>
+          </div>
+        </div>
+      </div>
+  </body>
+  <script src="opmaak.js"></script>
+</html>
